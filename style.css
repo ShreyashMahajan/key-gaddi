@@ -335,6 +335,7 @@ table {
 
 /* product card */
 .product--card {
+    width: 17rem;
     display: flex;
     flex-direction: column;
     row-gap: 9px;
@@ -348,7 +349,7 @@ table {
 }
 
 .product__img {
-    width: 20em;
+    width: 100%
     display: flex;
     
 }

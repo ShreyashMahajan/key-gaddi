@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Key Lorem</title>
+    <link rel="stylesheet" href="https://monad-ui.netlify.app/componentLibrary.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/product_listing/product_listing.css">
+</head>
+<body class="body-container">
+     
+    <nav class="navbar">
+        <h3 class="nav__heading">Lorem</h3>
+        <div class="search-container">
+            <input type="search" name="searchBar" class="input__search" placeholder="search here">
+            <a href="#"><button class="btn__search"><img src="/images/home-page/search.png" alt="search" class="img--icon"></button></a>
+        </div>
+        <div class="customer-info">
+            <button class="btn--login">Login</button>
+           <a href="" class="item--link"> <div class="wishlist-box">
+                <div class="badge">
+                    <img src="/images/home-page/wishlist.png" alt="wishlist image" class="badge__img">
+                    <span class="badge__text">7</span>
+                </div>
+            </div>
+        </a>
+          <a href="" class="item--link"> <div class="cart-box">
+                <div class="badge">
+                    <img src="/images/home-page/cart.png" alt="Cart image" class="badge__img">
+                    <span class="badge__text">1</span>
+                </div>
+                <p class="text--cart">Cart</p>
+            </div>
+        </a>
+        </div>
+        <div class="search-container search-container2">
+            <input type="search" name="searchBar" class="input__search" placeholder="search here">
+            <a href="#"><button class="btn__search"><img src="/images/home-page/search.png" alt="search" class="img--icon"></button></a>
+        </div>
+    </nav>
+    <aside class="sidebar">
+            <div class="product-filter-container">
+                <div class="filter-content">
+                    <p class="filter--text">Filters</p>
+                   <a href="" class="filter--link"> <p class="filter--clear">Clear</p></a>
+                </div>
+                <div class="filter--price">
+                    <p class="filter__heading">Price</p>
+                    <input type="range" list="tickmarks" class="price-slider">
+                    <datalist id="tickmarks">
+                        <option value="0" label="0">0</option>
+                        <option value="20,000" label="20,000">20,000</option>
+                        <option value="40,000" label="40,000">40,000</option>
+                        <option value="60,000" label="60,000">60,000</option>
+                        <option value="80,000" label="80,000">80,000</option>
+                        <option value="1,20,000" label="1,20,000">1,20,000</option>
+                    </datalist>
+                </div>
+                <div class="filter--category">
+                    <p class="filter__heading">Category</p>
+                    <input type="checkbox" id="item-one" value="bike">
+                     <label for="item-one">Bike</label><br>
+                     <input type="checkbox" id="item-two" value="bike">
+                     <label for="item-two">Car</label>
+                </div>
+                <div class="filter--rating">
+                    <p class="filter__heading">Rating</p>
+                    <input type="radio" name="rating" id="four-and-above" value="four-and-above">
+                    <label for="four-and-above">4 stars and above</label>
+                    <br>
+                    <input type="radio" name="rating" id="three-star" value="three-star">
+                    <label for="three-star">3 stars</label>
+                    <br>
+                    <input type="radio" name="rating" id="two-star" value="two-star">
+                    <label for="two-star">2 stars</label>
+                    <br>
+                    <input type="radio" name="rating" id="one-star" value="one-star">
+                    <label for="one-star">1 star</label>
+                </div>
+                <div class="filter-sort">
+                    <p class="filter__heading">Sort By</p>
+                    <input type="radio" name="sort" id="low-to-high" value="low-to-high">
+                    <label for="low-to-high">Low to high</label>
+                    <br>
+                    <input type="radio" name="sort" id="high-to-low" value="high-to-low">
+                    <label for="high-to-low">High to low</label>
+                    <br>
+                </div>
+            </div>
+    </aside>
+    <main class="main-container">
+        <div class="category-wrapper">
+            <h2 class="category__heading">Cars</h2>
+            <div class="category-section">
+                <div class="product--card ">
+                     <img src="/images/home-page/swift.jpg" alt="swift car" class="product__img">
+                     <h3 class="product--name">2013 Maruti Swift Dzire</h3>
+                     <p class="product--version">VDI BS IV span </p>
+                     <div class="product-spec">
+                         <p class="product-info">40,212 km</p>
+                         <p class="product-info">1st Owner</p>
+                         <p class="product-info">Diesel</p>
+                     </div>
+                     <div class="product-price">
+                         <p class="product-emi">₹9,000/month</p>
+                         <p class="product-total">₹5,00,000</p>
+                     </div>
+                     <p class="product--downpayment">Zero downpayment</p>
+                     <div class="product-cta">
+                        <button class="product__btn">Book Now</button>
+                        <img src="/images/home-page/wishlist-black.png" alt="" class="product-wishlist">
+                     </div>
+                </div>
+                <div class="product--card ">
+                    <img src="/images/home-page/swift.jpg" alt="swift car" class="product__img">
+                    <h3 class="product--name">2013 Maruti Swift Dzire</h3>
+                    <p class="product--version">VDI BS IV span </p>
+                    <div class="product-spec">
+                        <p class="product-info">40,212 km</p>
+                        <p class="product-info">1st Owner</p>
+                        <p class="product-info">Diesel</p>
+                    </div>
+                    <div class="product-price">
+                        <p class="product-emi">₹9,000/month</p>
+                        <p class="product-total">₹5,00,000</p>
+                    </div>
+                    <p class="product--downpayment">Zero downpayment</p>
+                    <div class="product-cta">
+                       <button class="product__btn">Book Now</button>
+                       <img src="/images/home-page/wishlist-black.png" alt="" class="product-wishlist">
+                    </div>
+               </div>
+               <div class="product--card ">
+                <img src="/images/home-page/swift.jpg" alt="swift car" class="product__img">
+                <h3 class="product--name">2013 Maruti Swift Dzire</h3>
+                <p class="product--version">VDI BS IV span </p>
+                <div class="product-spec">
+                    <p class="product-info">40,212 km</p>
+                    <p class="product-info">1st Owner</p>
+                    <p class="product-info">Diesel</p>
+                </div>
+                <div class="product-price">
+                    <p class="product-emi">₹9,000/month</p>
+                    <p class="product-total">₹5,00,000</p>
+                </div>
+                <p class="product--downpayment">Zero downpayment</p>
+                <div class="product-cta">
+                   <button class="product__btn">Book Now</button>
+                   <img src="/images/home-page/wishlist-black.png" alt="" class="product-wishlist">
+                </div>
+           </div>
+                
+           <div class="product--card ">
+            <img src="/images/home-page/swift.jpg" alt="swift car" class="product__img">
+            <h3 class="product--name">2013 Maruti Swift Dzire</h3>
+            <p class="product--version">VDI BS IV span </p>
+            <div class="product-spec">
+                <p class="product-info">40,212 km</p>
+                <p class="product-info">1st Owner</p>
+                <p class="product-info">Diesel</p>
+            </div>
+            <div class="product-price">
+                <p class="product-emi">₹9,000/month</p>
+                <p class="product-total">₹5,00,000</p>
+            </div>
+            <p class="product--downpayment">Zero downpayment</p>
+            <div class="product-cta">
+               <button class="product__btn">Book Now</button>
+               <img src="/images/home-page/wishlist-black.png" alt="" class="product-wishlist">
+            </div>
+       </div>
+
+       <div class="product--card ">
+        <img src="/images/home-page/swift.jpg" alt="swift car" class="product__img">
+        <h3 class="product--name">2013 Maruti Swift Dzire</h3>
+        <p class="product--version">VDI BS IV span </p>
+        <div class="product-spec">
+            <p class="product-info">40,212 km</p>
+            <p class="product-info">1st Owner</p>
+            <p class="product-info">Diesel</p>
+        </div>
+        <div class="product-price">
+            <p class="product-emi">₹9,000/month</p>
+            <p class="product-total">₹5,00,000</p>
+        </div>
+        <p class="product--downpayment">Zero downpayment</p>
+        <div class="product-cta">
+           <button class="product__btn">Book Now</button>
+           <img src="/images/home-page/wishlist-black.png" alt="" class="product-wishlist">
+        </div>
+   </div>
+
+   <div class="product--card ">
+    <img src="/images/home-page/swift.jpg" alt="swift car" class="product__img">
+    <h3 class="product--name">2013 Maruti Swift Dzire</h3>
+    <p class="product--version">VDI BS IV span </p>
+    <div class="product-spec">
+        <p class="product-info">40,212 km</p>
+        <p class="product-info">1st Owner</p>
+        <p class="product-info">Diesel</p>
+    </div>
+    <div class="product-price">
+        <p class="product-emi">₹9,000/month</p>
+        <p class="product-total">₹5,00,000</p>
+    </div>
+    <p class="product--downpayment">Zero downpayment</p>
+    <div class="product-cta">
+       <button class="product__btn">Book Now</button>
+       <img src="/images/home-page/wishlist-black.png" alt="" class="product-wishlist">
+    </div>
+</div>
+
+            </div>
+        </div>
+    </main>
+    <footer class="footer" >
+        <div class="social-links">
+            <a href="" class="item--link" ><img src="/images/home-page/person.png" class="img--icon-social" alt="Twitter"></a>
+            <a href="" class="item--link" ><img src="/images/home-page/person.png" class="img--icon-social" alt="Github"></a>
+            <a href="" class="item--link" ><img src="/images/home-page/person.png" class="img--icon-social" alt="LinkedIn"></a>
+        </div>
+        <div class="footer--text">
+            Designed by <span class="footer-credit">Shreyash Mahajan</span>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
