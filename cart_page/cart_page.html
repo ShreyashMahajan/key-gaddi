@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Lorem</title>
+    <link rel="stylesheet" href="https://monad-ui.netlify.app/componentLibrary.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/cart_page/cart_page.css">
+</head>
+<body class="body-container">
+    <nav class="navbar">
+        <h3 class="nav__heading">Lorem</h3>
+        <div class="search-container">
+            <input type="search" name="searchBar" class="input__search" placeholder="search here">
+            <a href="#"><button class="btn__search"><img src="/images/home-page/search.png" alt="search" class="img--icon"></button></a>
+        </div>
+        <div class="customer-info">
+            <button class="btn--login">Login</button>
+           <a href="" class="item--link"> <div class="wishlist-box">
+                <div class="badge">
+                    <img src="/images/home-page/wishlist.png" alt="wishlist image" class="badge__img">
+                    <span class="badge__text">7</span>
+                </div>
+            </div>
+        </a>
+          <a href="" class="item--link"> <div class="cart-box">
+                <div class="badge">
+                    <img src="/images/home-page/cart.png" alt="Cart image" class="badge__img">
+                    <span class="badge__text">1</span>
+                </div>
+                <p class="text--cart">Cart</p>
+            </div>
+        </a>
+        </div>
+        <div class="search-container search-container2">
+            <input type="search" name="searchBar" class="input__search" placeholder="search here">
+            <a href="#"><button class="btn__search"><img src="/images/home-page/search.png" alt="search" class="img--icon"></button></a>
+        </div>
+    </nav>
+       <main class="main-container">
+           <div class="cart--box">
+               <h1 class="cart__heading">My Cart</h1>
+               <div class="cart-container">
+                   <div class="cart-productList">
+               <div class="cart-product--card">
+                   <img src="/images/home-page/bike-electric.webp" alt="bike image" class="prod-cart__img"  />
+                   <div class="cart-product--info">
+                       <p class="cart-product-name">Lorem Spark 2021</p>
+                       <p class="cart-product--price">70,000</p>
+                       <div class="product-qty">
+                          <p class="product-qty__text">Quantity:</p>
+                          <div class="product-qty-value">
+                              <button class="btn-qty btn--minus">-</button>
+                              <input type="number" class="input-qty--value" min="1" max="5">
+                              <button class="btn-qty btn--plus">+</button>
+                          </div>
+                       </div>
+                       <div class="cart__btn-container">
+                           <button class="btn--cart cart--remove">Remove From Cart</button>
+                           <button class="btn--cart cart-to-wishList">Move to Wishlist</button>
+                       </div>
+                   </div>
+                </div>
+                <div class="cart-product--card">
+                    <img src="/images/home-page/bike-electric.webp" alt="bike image" class="prod-cart__img"  />
+                    <div class="cart-product--info">
+                        <p class="cart-product-name">Lorem Spark 2021</p>
+                        <p class="cart-product--price">70,000</p>
+                        <div class="product-qty">
+                           <p class="product-qty__text">Quantity:</p>
+                           <div class="product-qty-value">
+                               <button class="btn-qty btn--minus">-</button>
+                               <input type="number" class="input-qty--value" min="1" max="5">
+                               <button class="btn-qty btn--plus">+</button>
+                           </div>
+                        </div>
+                        <div class="cart__btn-container">
+                            <button class="btn--cart cart--remove">Remove From Cart</button>
+                            <button class="btn--cart cart-to-wishList">Move to Wishlist</button>
+                        </div>
+                    </div>
+                 </div>
+               </div>
+               <div class="cart--price-details">
+                  <p class="cart-price__heading">PRICE DETAILS</p>
+                  <div class="cart-price-cont">
+                      <p class="cart-price__text">Price (2 items) </p>
+                      <p class="cart-price-value">79,999</p>
+                  </div>
+                  <div class="delivery-charge-detail">
+                      <p class="delivery-charge-text">Delivery Charge</p>
+                      <p class="delivery-charge--value">1,000</p>
+                  </div>
+                  <div class="cart--total">
+                      <p class="cart-price__heading">TOTAL AMOUNT</p>
+                      <p class="cart-total--value">84,999</p>
+                  </div>
+                  <button class="btn-place-order">PLACE ORDER</button>
+               </div>
+            </div>
+           </div>
+        </main>
+</body>
+</html>
