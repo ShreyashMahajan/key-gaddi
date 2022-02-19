@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | Lorem</title>
+    <link rel="stylesheet" href="https://monad-ui.netlify.app/componentLibrary.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/cart_page/cart_page.css">
+    <link rel="stylesheet" href="/authentication/login_page/login.css">
+    <link rel="stylesheet" href="/authentication/signUp_page/signUp.css">
+</head>
+<body class="body-container">
+    <nav class="navbar">
+        <h3 class="nav__heading">Lorem</h3>
+        <div class="search-container">
+            <input type="search" name="searchBar" class="input__search" placeholder="search here">
+            <a href="#"><button class="btn__search"><img src="/images/home-page/search.png" alt="search" class="img--icon"></button></a>
+        </div>
+        <div class="customer-info">
+           <a href="/authentication/login_page/login.html" class="link"> <button class="btn--login">Login</button> </a>
+           <a href="/wishlist/" class="item--link"> <div class="wishlist-box">
+                <div class="badge">
+                    <img src="/images/home-page/wishlist.png" alt="wishlist image" class="badge__img">
+                    <span class="badge__text">7</span>
+                </div>
+            </div>
+        </a>
+          <a href="/cart_page/cart_page.css" class="item--link"> <div class="cart-box">
+                <div class="badge">
+                    <img src="/images/home-page/cart.png" alt="Cart image" class="badge__img">
+                    <span class="badge__text">1</span>
+                </div>
+                <p class="text--cart">Cart</p>
+            </div>
+        </a>
+        </div>
+        <div class="search-container search-container2">
+            <input type="search" name="searchBar" class="input__search" placeholder="search here">
+            <a href="#"><button class="btn__search"><img src="/images/home-page/search.png" alt="search" class="img--icon"></button></a>
+        </div>
+    </nav>
+    <main class="main-container">
+        <div class="form-wrapper">
+             <h2 class="form__heading ">Sign Up</h2>
+             <div class="form-main-container">
+                   <div class="form-sub-container">
+                    <form action="#" id="login" class="form-container">
+                       <div class="form-data-container">
+                        <label for="userName">Name</label>
+                        <input type="text" name="userName" id="userName" class="input-data" placeholder="Name"/>
+                        <label for="userEmail">Email address</label>
+                        <input type="email" name="userEmail" id="userEmail" placeholder="enter email address" class="input-data">
+                        <label for="userPassword">Password</label>
+                        <input type="password" id="userPassword" class="input-data" placeholder="enter password" >
+                        <label for="userConfirmPassword">Confirm Password</label>
+                        <input type="password" id="userConfirmPassword" class="input-data" placeholder="enter password again" >
+                       </div>
+                       <div class="form-data-container">
+                           <label for="userContact">Contact Number</label>
+                           <input type="number" name="userContact" id="userContact" class="input-data" placeholder="contact number">
+                           <label for="referenceCode">Referal Code</label>
+                           <input type="text" name="referenceCode" id="referenceCode" class="input-data" placeholder="referal code">
+                           <div class="gender-info">
+                            <label for="gender">Gender</label>
+                            <br>
+                            <input type="radio" name="gender" value="male" class="input-radio" >Male
+                            <input type="radio" name="gender" value="female" class="input-radio" >Female
+                            <input type="radio" name="gender" value="other" class="input-radio" >Other
+                        </div>
+                       </div>
+                    </form>
+                   </div>
+                   <div class="form-sub-container">
+                    <div class="user-info-cont">
+                        <div class="user-remember">
+                        <input type="checkbox" name="userRemember" id="userRemember" class=" input-user-remember" placeholder="enter password">
+                        <span class="user-remember__heading"> I accept all terms and conditions</span>
+                        </div>
+                        </div>
+                    <button class="btn-user--login user-create-account">Create New Account</button>
+                    <a href="/authentication/login_page/login.html" class="link"> <p class="link-center" >Already have an account</p> </a>
+                   </div>
+             </div>
+        </div>
+    </main>
+</body>
+</html>    

@@ -1,0 +1,16 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.confirm-user-data {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    display: none;
+}
+
+.btn--change-pass {
+    display: none;
+}
