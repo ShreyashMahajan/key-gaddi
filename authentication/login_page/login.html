@@ -1,69 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart | Lorem</title>
+    <title>Cart | MajorSpark</title>
     <link rel="stylesheet" href="https://monad-ui.netlify.app/componentLibrary.css">
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/cart_page/cart_page.css">
     <link rel="stylesheet" href="/authentication/login_page/login.css">
 </head>
+
 <body class="body-container">
     <nav class="navbar">
-        <h3 class="nav__heading">Lorem</h3>
+        <a href="/" class="link--home">
+            <h3 class="nav__heading">MajorSpark</h3>
+        </a>
         <div class="search-container">
             <input type="search" name="searchBar" class="input__search" placeholder="search here">
-            <a href="#"><button class="btn__search"><img src="/images/home-page/search.png" alt="search" class="img--icon"></button></a>
+            <a href="#"><button class="btn__search"><img src="/images/home-page/search.png" alt="search"
+                        class="img--icon"></button></a>
         </div>
         <div class="customer-info">
-            <button class="btn--login">Login</button>
-           <a href="" class="item--link"> <div class="wishlist-box">
-                <div class="badge">
-                    <img src="/images/home-page/wishlist.png" alt="wishlist image" class="badge__img">
-                    <span class="badge__text">7</span>
+            <a href="/authentication/login_page/login.html" class="item--link"> <button
+                    class="btn--login">Login</button> </a>
+            <a href="/wishlist/wishlist.html" class="item--link">
+                <div class="wishlist-box">
+                    <div class="badge">
+                        <img src="/images/home-page/wishlist.png" alt="wishlist image" class="badge__img">
+                        <span class="badge__text">7</span>
+                    </div>
                 </div>
-            </div>
-        </a>
-          <a href="" class="item--link"> <div class="cart-box">
-                <div class="badge">
-                    <img src="/images/home-page/cart.png" alt="Cart image" class="badge__img">
-                    <span class="badge__text">1</span>
+            </a>
+            <a href="/cart_page/cart_page.html" class="item--link">
+                <div class="cart-box">
+                    <div class="badge">
+                        <img src="/images/home-page/cart.png" alt="Cart image" class="badge__img">
+                        <span class="badge__text">1</span>
+                    </div>
+                    <p class="text--cart">Cart</p>
                 </div>
-                <p class="text--cart">Cart</p>
-            </div>
-        </a>
+            </a>
+            <a href="#" class="item--link">
+                <img src="/images/home-page/logout.png" alt="Logout icon" class="badge__img">
+            </a>
         </div>
         <div class="search-container search-container2">
             <input type="search" name="searchBar" class="input__search" placeholder="search here">
-            <a href="#"><button class="btn__search"><img src="/images/home-page/search.png" alt="search" class="img--icon"></button></a>
+            <a href="#"><button class="btn__search"><img src="/images/home-page/search.png" alt="search"
+                        class="img--icon"></button></a>
         </div>
     </nav>
     <main class="main-container">
         <div class="form-wrapper">
-             <h2 class="form__heading">Login</h2>
-             <div class="form-main-container">
-                 <form action="#" id="login" class="form-container">
+            <h2 class="form__heading">Login</h2>
+            <div class="form-main-container">
+                <form action="#" id="login" class="form-container">
                     <label for="userEmail">Email address</label>
                     <br>
-                    <input type="email" name="userEmail" id="userEmail" placeholder="enter email address" class="input-data">
+                    <input type="email" name="userEmail" id="userEmail" placeholder="enter email address"
+                        class="input-data">
                     <br>
                     <label for="userPassword">Password</label>
                     <br>
-                    <input type="password" id="userPassword" class="input-data" placeholder="enter password" >
+                    <input type="password" id="userPassword" class="input-data" placeholder="enter password">
                     <div class="user-info-cont">
                         <div class="user-remember">
-                            <input type="checkbox" name="userRemember" id="userRemember" class=" input-user-remember" placeholder="enter password">
+                            <input type="checkbox" name="userRemember" id="userRemember" class=" input-user-remember"
+                                placeholder="enter password">
                             <span class="user-remember__heading">Remember me</span>
                         </div>
-                        <a href="#" class="forgot-pass--link">Forgot your Password?</a>
+                        <a href="/authentication/forgot_password/forgotPass.html" class="forgot-pass--link">Forgot your
+                            Password?</a>
                     </div>
                     <button class="btn-user--login">Login</button>
-                   <a href="#" class="link"> <p class="user-new-account">Create New Account</p> </a>
-                 </form>
-             </div>
+                    <a href="/authentication/signUp_page/signUp.html" class="link">
+                        <p class="user-new-account">Create New Account</p>
+                    </a>
+                </form>
+            </div>
         </div>
     </main>
 </body>
-</html>    
+
+</html>

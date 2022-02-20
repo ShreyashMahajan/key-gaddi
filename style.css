@@ -434,6 +434,11 @@ table {
   
 }
 
+.link--home {
+    text-decoration: none;
+    color: var(--category-heading-color);
+}
+
 
 
 @media only screen and (max-width: 630px) {
